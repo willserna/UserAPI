@@ -60,7 +60,7 @@ public class UserRouter {
 
     @Bean
     public RouterFunction<ServerResponse> deleteUser(DeleteUserUseCase useCase) {
-        return route(DELETE("/students/{id}"),
+        return route(DELETE("/users/{id}"),
                 request -> useCase.delete(request.pathVariable("id"))
                         .flatMap(s -> ServerResponse.ok()
                                 .bodyValue("User with id "+s+" has been deleted"))

@@ -4,33 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0728296a-7d75-444d-a5a8-63245c5b72e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/config/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/domain/collection/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/domain/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/domain/gymClass/GymClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/router/UserRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/usecases/DeleteUserUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/usecases/GetAllUsersUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/usecases/GetUserByIdUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/usecases/SaveUserUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/usecases/UpdateUserUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/usecases/interfaces/DeleteUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/usecases/interfaces/SaveUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/users/api/usecases/interfaces/UpdateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/users/api/usecases/DeleteUserUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/users/api/usecases/GetAllUsersUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/users/api/usecases/GetUserByIdUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/users/api/usecases/SaveUserUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/users/api/usecases/UpdateUserUseCaseTest.java" afterDir="false" />
+    <list default="true" id="0728296a-7d75-444d-a5a8-63245c5b72e3" name="Changes" comment="Tests for Use cases created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/users/api/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/users/api/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/users/api/router/UserRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/users/api/router/UserRouter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/user/Documents/GitHub_NEW/RP Final/ClassAPI",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/GitHub_NEW/RP Final/ClassAPI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Documents\GitHub_NEW\RP Final\UserAPI\src\main\resources" />
@@ -98,7 +76,7 @@
       <recent name="org.users.api.config" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UpdateUserUseCaseTest.updateUser">
+  <component name="RunManager">
     <configuration name="DeleteUserUseCaseTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserAPI" />
       <extension name="coverage">
@@ -198,6 +176,74 @@
       <option name="presentableId" value="Default" />
       <updated>1679438932727</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project creation and setup">
+      <created>1679457091263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679457091263</updated>
+    </task>
+    <task id="LOCAL-00002" summary="domain layer created">
+      <created>1679457136529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679457136529</updated>
+    </task>
+    <task id="LOCAL-00003" summary="custom mapper set up">
+      <created>1679457175165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679457175165</updated>
+    </task>
+    <task id="LOCAL-00004" summary="User repository created">
+      <created>1679457211573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679457211573</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Interfaces for Use cases created">
+      <created>1679457261939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679457261939</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Use cases created">
+      <created>1679457307101</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679457307101</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Router created">
+      <created>1679457321246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679457321246</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tests for Use cases created">
+      <created>1679457343950</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679457343950</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project creation and setup" />
+    <MESSAGE value="domain layer created" />
+    <MESSAGE value="custom mapper set up" />
+    <MESSAGE value="User repository created" />
+    <MESSAGE value="Interfaces for Use cases created" />
+    <MESSAGE value="Use cases created" />
+    <MESSAGE value="Router created" />
+    <MESSAGE value="Tests for Use cases created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests for Use cases created" />
   </component>
 </project>
